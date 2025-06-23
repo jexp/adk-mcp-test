@@ -12,3 +12,5 @@ wheels/
 *.env
 .env
 
+run.sh
+neo4j-memory.env
