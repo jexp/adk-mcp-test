@@ -13,5 +13,7 @@ export NEO4J_URL=$NEO4J_URI
 export NEO4J_USERNAME=neo4j
 export NEO4J_DATABASE=neo4j
 export NEO4J_PASSWORD="L8ZkmVZFj_rk3WwVKc73EEXsEk0Y-vEyxzoQAhm3DHg"
+# pip install uv
+# or curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 uv run adk web
