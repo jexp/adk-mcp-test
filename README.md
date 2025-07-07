@@ -24,6 +24,7 @@ Add a `neo4j-memory.env` with Database connection information:
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=your_password
+GOOGLE_API_KEY=""
 # OPENAPI_API_KEY=your_openapi_key
 # ANTHROPIC_API_KEY=your_anthropic_key
 ```
