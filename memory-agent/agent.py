@@ -29,6 +29,5 @@ root_agent = Agent(
             ],
             env={ k: os.environ[k] for k in ["NEO4J_URL","NEO4J_USERNAME","NEO4J_PASSWORD"] }
         ),
-        # tool_filter=['get_neo4j_schema','read_neo4j_cypher']
     )]
 )

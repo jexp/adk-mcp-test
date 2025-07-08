@@ -2,7 +2,7 @@ export OLLAMA_API_BASE="http://localhost:11434"
 export OPENAI_API_BASE=http://localhost:11434/v1
 export OPENAI_API_KEY=anything
 
-export GOOGLE_API_KEY=""
+export GOOGLE_API_KEY="AIzaSyDh_rYhgs5_hy5g81rI7fcjuuKU4NyMfI0"
 export GOOGLE_GENAI_USE_VERTEXAI=FALSE
 
 # ollama pull qwen3:latest
