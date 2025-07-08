@@ -1,0 +1,20 @@
+{
+    "servers": {
+        "neo4j-mcp-memory": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": ["mcp-neo4j-memory"],
+            "env": {
+                "NEO4J_URL":"neo4j+s://1a1c5a65.databases.neo4j.io",
+                "NEO4J_USERNAME":"neo4j",
+                "NEO4J_DATABASE":"neo4j",
+                "NEO4J_PASSWORD":"StzTyZTC1oaWRnh76hKfkpdRMZl_qk-VdK6d6MLYZtc"
+            }
+        },
+        "letter-counter-mcp": {
+            "type": "stdio",
+            "command": "uv",
+            "args": ["run","--directory","${workspaceFolder}/letter-counter-mcp","server.py"],
+        }
+    }
+}
